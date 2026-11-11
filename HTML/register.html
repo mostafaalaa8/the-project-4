@@ -1,0 +1,61 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>register Page</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/all.css">
+    </head>
+    <body>
+
+        <header>
+
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="brand">Shopping Cart</a>
+                    <nav>
+                        <ul id="link">
+                            <li><a href="login.html">Sign In</a></li>
+                            <li><a href="register.html">Sign Up</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+            </div>
+        </header>
+        <section class="section-form">
+                      <h2>Register User</h2>
+    
+            <form>
+                <div style="display: flex; gap: 10px;">
+                  <div style="flex: 1;">
+                     <label for="firstname">First Name</label>
+                     <input type="text" placeholder="Enter first name" id="firstname">
+                  </div>
+                   <div style="flex: 1;">
+                     <label for="lastname">Last Name</label>
+                     <input type="text" placeholder="Enter last name" id="lastname">
+                  </div>
+                </div>
+
+                 <label for="email">Email</label>
+                      <input type="email" placeholder="Enter email" id="email">
+
+                 <label for="password">Password</label>
+                    <input type="password" placeholder="Enter password" id="password">
+
+                     <input type="submit" value="Register" id="sign-up">
+
+                       <p class="login-link" style="margin-top: 15px; font-size: 13px;">
+                             Have an account? <a href="login.html" style="color: #007bff; text-decoration: none;">Login</a>
+                                  </p>
+           </form>
+        </section>
+
+        
+         <script src="../js/register.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,679 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    height: 80px;
+    background-color: rgb(146, 145, 145);
+    padding: 10px 0px;
+}
+.icon{
+    width: 200px;
+    height: 80px;
+    margin-top: -15px;
+    border-radius: 50%;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+.hello{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 1250px;
+}
+#user-info li a {
+    position: absolute;
+    margin-left: -200px ;
+}
+
+.header-content .brand {
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+nav ul li a {
+    font-size: 22px !important;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.brand{
+    margin-top: 7px;
+}
+
+.section-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px !important;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+}
+
+.section-form h2 {
+    font-size: 30px !important;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+
+.section-form label {
+    display: block;
+    font-size: 22px !important;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+
+.section-form form input[type="email"],
+.section-form form input[type="password"] {
+    display: block;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 15px !important;
+}
+
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-me input {
+    margin-right: 8px;
+}
+
+.remember-me label {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+
+.section-form form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 70px;
+}
+
+.section-form form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.register-link {
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.section-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.section-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-form label {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.section-form input[type="text"],
+.section-form input[type="email"],
+.section-form input[type="password"] {
+    display: block;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 14px;
+}
+
+.section-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+nav ul#user_info{
+    display: none;
+}
+/* //////////////////////////////////////////////////// */
+.search-section {
+  display: flex;
+  justify-content: center; /* لتوسيط العناصر في منتصف الصفحة */
+  align-items: center;     /* لمحاذاة العناصر على نفس الخط العمودي */
+  gap: 10px;               /* مسافة صغيرة ومنتظمة وموحدة بين كل عنصر والآخر */
+  margin: 30px auto;
+  width: 100%;
+}
+
+.search-section select,
+.search-section input,
+.search-section button {
+  height: 38px;            /* توحيد الارتفاع لجميع العناصر */
+  box-sizing: border-box;
+}
+
+.search-section select {
+  padding: 0 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-section input {
+  padding: 0 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 800px;            /* يمكنك تعديل العرض حسب الحاجة */
+  outline: none;
+}
+
+.search-section button {
+  padding: 0 20px;
+  background-color: #212529;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#searchBtn{
+    width: 150px;
+}
+#searchType{
+    width: 260px;
+}
+
+
+
+
+
+
+
+
+.container1{
+    margin-left: 340px;
+}
+.product_item {
+    width: 400px;
+    background-color: #e9ecef; /* الخلفية الرمادية الفاتحة للكارت */
+    padding: 15px;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* تنسيق صورة المنتج */
+.product_item_img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* تنسيق تفاصيل المنتج */
+.product_item_desc {
+    margin-bottom: 15px;
+}
+
+.product_item_desc h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+.product_item_desc p {
+    font-size: 15px;
+    color: #555;
+    margin: 0 0 8px 0;
+      margin-left: 60px;
+}
+
+.product_item_desc span {
+    display: block;
+    font-size: 15px;
+    color: #555;
+      margin-left: 60px;
+}
+
+/* تنسيق زر الإضافة والأيقونة */
+.product_item_action {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 60px;
+}
+
+/* أيقونة القلب */
+.product_item_action .fav {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* زر Add to Cart */
+.add_to_cart {
+    background-color: #007bff; /* اللون الأزرق للزر */
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.add_to_cart:hover {
+    background-color: #0056b3;
+}
+
+#user-info li #logout{
+    margin-left: 30px;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+#user-info .carts_products a{
+    margin-left: -110px;
+}
+
+
+
+nav ul#user-info li i {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+nav ul#user-info li {
+    margin: 0px 10px;
+    position: relative;
+    position: absolute;
+}
+
+nav ul#user-info li .badge {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    top: -10px;
+    right: -10px;
+    font-size: 13px;
+    display: none;
+}
+#user-info .Shopping_cart{
+    position: relative;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+.carts_products {
+    position: absolute;
+    width: 280px;
+    transform: translate(-80px, 0);
+    background-color: #eaeaea;
+    top: 80px;
+    padding: 10px;
+    border: 1px solid #8d8686;
+    z-index: 1000;
+    display: none;
+}
+
+
+.carts_products a {
+    display: block;
+    margin: 4px 0;
+    padding: 8px 0;
+    background-color: #eaeaea;
+    color: #494747;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 170px;
+    margin-left: 45px !important;
+}
+.carts_products :hover{
+    color: #ccc;
+    background-color: #333;
+}
+.product_item:hover{
+    box-shadow:0 15px 25px rgba(0, 0, 0, 0.9);
+}
+
+
+
+.cart_item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.cart_item_img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.cart_item_desc h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cart_item_desc p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.remove_from_cart {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    
+}
+
+ #logout {
+    text-decoration: none;
+    color: white; 
+    font-size: 25px;
+    margin-top: 15px;
+    border: 1px solid white;
+    padding-right: 20px;
+    margin-left: 40px !important;
+ }
+  #logout:hover{
+    color:  #333;
+    background-color:white;
+    border: 1px solid #333;
+  }
+/* ///////////////////////////////// */
+
+
+/* تنسيق الأيقونة والبادج (Badge) */
+.shopping_cart {
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.badge {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    display: none;
+}
+
+/* تنسيق قائمة المنتجات المنسدلة من السلة */
+.carts_products {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 280px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    display: none; /* مخفية افتراضياً وتظهر عند الضغط */
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.carts_products div {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+/* تنسيق الصندوق الخاص بكل منتج جوه السلة */
+.cart-item-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    margin-bottom: 4px;
+}
+
+/* تفاصيل اسم المنتج وأزرار التحكم */
+.cart-item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.cart-item-title {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* أزرار [- 1 +] */
+.cart-item-actions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.qty-btn {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.cart-item-qty {
+    padding: 2px 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+/* تنسيق السعر على اليمين */
+.cart-item-price {
+    font-size: 12px;
+    color: #555;
+    text-align: right;
+}
+
+.cart-item-price span {
+    font-weight: bold;
+    color: #000;
+}
+
+/* زر عرض كل المنتجات داخل السلة (View All Products) */
+#viewAllProducts {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#viewAllProducts:hover {
+    background-color: #555;
+}
+
+/* //////////////////////////////// */
+
+ #logout1 {
+    text-decoration: none;
+    color: white; 
+    font-size: 25px;
+    margin-top: 5px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    margin-left: 40px !important;
+ }
+  #logout1:hover{
+    color:  #333;
+    background-color:white;
+    border: 1px solid #333;
+  }
+
+  /* ////////////////////////////// */
+
+
+  .section-form {
+    padding-top: 10px;
+    /* margin-top: 20px; */
+    position:relative;
+    margin-bottom: 100px;
+}
+
+
+/* تنسيق المنتجات داخل صفحة السلة فقط cartproducts.html */
+.section-form .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.section-form{
+    position: relative;
+    margin-top: -100px;
+}
+
+.section-form .cart_item {
+    width: 48%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-sizing: border-box;
+}
+.section-form .cart_item:hover{
+    border: 2px solid red;
+}
+
+@media (max-width: 768px) {
+    .section-form .cart_item {
+        width: 100%;
+    }
+}
+
+.home{
+    margin-bottom: 50px;
+}
+
+.favorite-section{
+    margin-top: 200px !important;
+}
+
+.product_item_action i{
+    padding-left: 20px;
+}
+

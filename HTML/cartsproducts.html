@@ -1,0 +1,54 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carts products</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+<header>
+    <div class="container">
+        <div class="header-content">
+            <a href="index.html" class="brand">Shopping Cart</a>
+            <nav>
+               
+                <ul id="links">
+                    <li><a href="login.html">Sign In</a></li>
+                    <li><a href="register.html">Sign Up</a></li>
+                </ul>
+
+               
+                <div id="user-info" style="display: none;">
+                       <!-- <span id="user"></span> -->
+                      <a href="#" id="logout1">Log Out</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<section class="section-form">
+    <div class="container2">
+        <h2>Carts Products</h2>
+        <div class="products"></div>
+        
+        <!-- أضيفي هذا السطر هنا بالتحديد -->
+        <div class="total-price" style="text-align: center; margin-top: 30px; font-size: 22px; font-weight: bold;">
+            <h2>Total Price: <span id="total-price-val">$0</span></h2>
+        </div>
+    </div>
+</section>
+
+      <div class="favorite-section" style="text-align: center; margin-top: 60px;">
+                   <h2 style="font-size: 24px; font-weight: bold; margin-bottom: 10px; color: #333;">Favorite Items</h2>
+                     <hr style="width: 50%; margin: 0 auto 30px auto; border: 1px solid #ddd;">
+                       <div class="favorite-products" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;"></div>
+       </div>
+
+        
+         <script src="../JS/carts.js"></script>
+        <script src="../JS/user.js"></script>
+    </body>
+
+</html>
